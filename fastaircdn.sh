@@ -19,7 +19,7 @@ cd "$script_dir"
 echo
 echo '你的IP地址是'$(curl 4.ipw.cn)',请确认为本机未经过代理的地址'
 echo '智深博客：https://www.bigniuniu.top'
-./CloudflareST -url https://ce.zsblog.eu.org
+./CloudflareST 
 
 record_type="A"     
 #获取zone_id、record_id
